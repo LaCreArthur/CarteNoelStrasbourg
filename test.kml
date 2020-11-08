@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Carte démo du marché de noël</name>
+    <description><![CDATA[Test d'une carte avec Google My Maps pour voir si c'est assez précis pour avoir plusieurs chalets sur la même place.]]></description>
+    <Style id="icon-1567-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1567-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1567-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1567-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1567-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1607-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1607-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1607-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1607-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1607-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1651-FBC02D-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1651-FBC02D-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1651-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1651-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1651-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1720-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1720-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1720-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1720-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1720-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1885-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1885-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1885-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1885-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1885-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Place Broglie</name>
+      <Placemark>
+        <name>Chalet Crêpes</name>
+        <description><![CDATA[Vente de crêpes et gaufres<br>Coordonnées : blablabla]]></description>
+        <styleUrl>#icon-1651-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            7.7493351,48.5845493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chalet Boule de noël</name>
+        <description><![CDATA[Boules et guirlandes lumineuses<br>Coordonnées : blablabla]]></description>
+        <styleUrl>#icon-1720-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            7.7492936,48.5845347,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chalet Confiseries</name>
+        <description><![CDATA[Bonbons, nougat et cacahuètes grillés <br>Coordonnées : blablabla<br>....]]></description>
+        <styleUrl>#icon-1607-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            7.7492291,48.5845569,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chalet Jouets en bois</name>
+        <description><![CDATA[Jouets en bois et marionettes<br>Coordonnées : blablabla<br>...]]></description>
+        <styleUrl>#icon-1885-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            7.7492393,48.5845148,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chalet Vin Chaud</name>
+        <description><![CDATA[Vin chaud et Choucroute en barquettes<br>Coordonnées : blablabla<br>...]]></description>
+        <styleUrl>#icon-1567-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            7.7492895,48.5845018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Allée 1</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            7.7490376,48.5844744,0
+            7.7492097,48.5845621,0
+            7.7494062,48.584629,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Allée 2</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            7.7491068,48.5844315,0
+            7.7492889,48.5845149,0
+            7.7494317,48.5845615,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
