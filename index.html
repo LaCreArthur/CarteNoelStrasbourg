@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -11,53 +11,70 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/cover/">
 
     <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap-4.5.3-dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
         }
-      }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
     </style>
     <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
-  </head>
-  <body class="text-center">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="masthead mb-auto">
-    <div class="inner">
-      <h3 class="masthead-brand">Cover</h3>
-      <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Contact</a>
-      </nav>
-    </div>
-  </header>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body class="text-center">
+<div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
+<!--  <div class="cover-container">-->
+    <header class="masthead mb-auto">
+        <div class="mx-auto cover-container inner p-3">
+            <h3 class="masthead-brand">Carte du marché de noël de Strasbourg</h3>
+            <nav class="nav nav-masthead justify-content-center">
+                <a class="nav-link active" href="#">Carte</a>
+                <a class="nav-link" href="#">Liste</a>
+                <a class="nav-link" href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+<!--  </div>-->
 
-  <main role="main" class="inner cover">
-    <h1 class="cover-heading">Cover your page.</h1>
-    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-    </p>
-  </main>
+    <main role="main" class="inner cover">
+        <h3 class="lead">Test de cartes représentant les chalets du marché de noël de Strasbourg</h3>
+        <div class="container-fluid">
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mC35Qc9ufG0QAChh48FYFpJbbavIyrmU"
+                    class="map"></iframe>
+            <h4 class="cover-heading">Réalisée avec Google My Maps</h4>
+            <p class="lead">
+              <a href="https://www.google.com/maps/d/u/0/viewer?hl=fr&mid=1mC35Qc9ufG0QAChh48FYFpJbbavIyrmU&ll=48.58452564380618%2C7.749291602392319&z=21" class="btn btn-lg btn-secondary">Plein écran</a>
+            </p>
+        </div>
+        
+        
+        <div>
+            <!-- Pointer events polyfill for old browsers, see https://caniuse.com/#feat=pointer -->
+            <script src="https://unpkg.com/elm-pep"></script>
+            
+            <div id="map" class="map"></div>
+            <div id="info">&nbsp;</div>
+            <script type="module" src="main.js"></script>
+        </div>
+    </main>
 
-  <footer class="mastfoot mt-auto">
-    <div class="inner">
-      <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-    </div>
-  </footer>
+    <footer class="mastfoot mt-auto">
+        <div class="inner">
+            <p>Demo made with <a href="https://getbootstrap.com/">Bootstrap</a>, by <a
+                    href="https://twitter.com/lacrearthur">Arthur Scheidel</a>.</p>
+        </div>
+    </footer>
 </div>
 </body>
 </html>
